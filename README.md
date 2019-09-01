@@ -1,6 +1,6 @@
 
 # GGSIPU_result
-[![Build Status](https://travis-ci.org/ashutoshvarma/ggsipu_result.svg?branch=master)](https://travis-ci.org/ashutoshvarma/ggsipu_result)
+[![Build Status](https://travis-ci.org/GGSIPUResultTracker/ggsipu_result_extractor.svg?branch=master)](https://travis-ci.org/GGSIPUResultTracker/ggsipu_result_extractor)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 
   
