@@ -116,7 +116,7 @@ class Result(JSONSerializable):
 
         grades = {'O': 10, 'A+': 9, 'A': 8, 'B+': 7, 'B': 6, 'C': 5, 'P': 4}
         total_credit = sum(
-            m.paper_credit if m.paper_credit else 0 for m in self.get_marks())
+            m.paper_credit if m.paper_credit else 0 for m in self.get_marks(include_none=True))
         total = sum(grades.get(
             m.grade, 0) * m.paper_credit if m.total and m.paper_credit else 0 for m in self.get_marks())
         return round(total/total_credit, 2) if total and total_credit else 0
